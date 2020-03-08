@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+   <style>
+       #asap{
+       width:110px;
+       height:150px;
+       background: url(mists.png);
+       animation: mists 3s steps(8) infinite;
+      }
+
+       body {
+           background-image: url('Maff.jpg');
+           
+       }
+       h1 {
+           color:black;
+           text-align: center;
+       }
+       p {
+           font-family: "Times New Roman";
+           font-size: 20px;
+       }
+       @keyframes mists {
+          0%{background-position :0px 0px; transform: translateX(0px);}
+          100%{background-position : -864px 0px; transform: translateX(1300px);}
+      }
+       
+    
+   </style>
+</head>
+<body>
+    <h1 align="center">BIODATA DIRI</h1>
+<table width="745" border="1" cellspacing="0" cellpadding="5" align="center">
+<tr align="center" bgcolor="#5F9EA0">
+<td width="174"><b> DATA DIRI </b></td>
+<td width="353"><b> KETERANGAN </b></td>
+<td width="232"><b> FOTO </b></td>
+</tr>
+<tr>
+<td>Nama</td>
+<td>MAFTUCHATI</td>
+<td rowspan="10" align="center"><img src="img/gambar.jpeg" width="210" height="313"></td>
+</tr>
+<tr>
+<td>Jurusan</td>
+<td>Teknik Informatika (TI)</td>
+</tr>
+<tr>
+<td>Jenjang</td>
+<td>Strata-1 (S1)</td>
+</tr>
+<tr>
+<td>Jenis Kelamin</td>
+<td>Perempuan</td>
+</tr>
+<tr>
+<td>Tempat/Tanggal Lahir</td>
+<td>Brebes, 11 September 1998</td>
+</tr>
+<tr>
+<td>Perguruan Tinggi</td>
+<td>POLITEKNIK HARAPAN BERSAMA </td>
+</tr>
+<tr>
+<td>Alamat</td>
+<td>JL.DR.Setia Budi Gandasuli Brebes</td>
+</tr>
+<tr>
+<td>Hobi</td>
+<td>Baca Novel dan Masak </td>
+</tr>
+<tr>
+    <td align=center colspan="3" > <b>I Hope All Always be Happay :)</b></td>
+</tr>
+</table><br><br>
+<center>
+    <a class="contoh-link" target="blank" title="yukk cek " href="https://www.youtube.com/channel/UCh3CiKSyN7T-ukY9N-0sOTA/"><b>My Youtube !</b></a><br><br><br>
+    <iframe src='https://www.sociablekit.com/app/embed/35582' frameborder='0' width='100%' height='1000'></iframe>
+</center>
+<br><br>
+<div id="asap"></div>
+</body>
+</html>
