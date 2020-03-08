@@ -1,0 +1,37 @@
+body{
+    background: url('Maff.jpg');
+    background-size: cover;
+    color: #fff;
+
+}
+#tulisan-external{
+    color: white;
+}
+
+.box-external{
+    background: green;
+    margin: 0px;
+    padding: 10px;
+}
+iframe{
+    height: 200px;
+    width: 300PX;
+}
+.contoh-link,
+.contoh-link:link,
+.contoh-link:active,
+.contoh-link:visited{
+	font-size: 20pt;
+	background: #EC5D68;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	font-family: sans-serif;	
+}
+.contoh-link:hover{
+	background: #EC5D68;
+}
+#YTB {
+    color: black;
+    font-weight: bold;
+}
